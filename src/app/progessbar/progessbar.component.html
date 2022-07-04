@@ -1,7 +1,7 @@
-<ngx-charts-bar-horizontal-stacked
+<!-- <ngx-charts-bar-horizontal-stacked
   [view]="view"
   [scheme]="colorScheme"
-  [results]="multi"
+  [results]!="multi"
   [gradient]="gradient"
   [xAxis]="showXAxis"
   [yAxis]="showYAxis"
@@ -13,4 +13,20 @@
   (select)="onSelect($event)">
 
 
-</ngx-charts-bar-horizontal-stacked>
+</ngx-charts-bar-horizontal-stacked> -->
+<div id="chart">
+  <apx-chart
+    [series]!="chartOptions.series"
+    [chart]!="chartOptions.chart"
+    [dataLabels]!="chartOptions.dataLabels"
+    [plotOptions]!="chartOptions.plotOptions"
+    [xaxis]!="chartOptions.xaxis"
+    [stroke]!="chartOptions.stroke"
+    [fill]!="chartOptions.fill"
+    [yaxis]!="chartOptions.yaxis"
+    [title]!="chartOptions.title"
+    [tooltip]!="chartOptions.tooltip"
+    [legend]!="chartOptions.legend"
+  ></apx-chart>
+</div>
+

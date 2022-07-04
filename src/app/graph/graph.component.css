@@ -1,0 +1,51 @@
+#fruit-meter {
+    border: 2px solid white;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  #div1 {
+    background: #48bb78;
+    color:#48bb78;
+  }
+  
+  #div2 {
+    background: #ecc94b;
+    color:#ecc94b;
+  }
+  
+  #div3 {
+    background: #ed8936;
+    color: #ed8936;
+  }
+  
+  #div4 {
+    background: #e53e3e;
+    color:#e53e3e;
+  }
+  
+  #div5 {
+    background: #805ad5;
+    color:#805ad5 ;
+  }
+
+  #fruit-meter {
+    border: 2px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+    /* New code below: */
+    height:40px;
+    width:60%;
+    display: grid;
+    grid-template-columns: 24fr 56fr 20fr 10fr 44fr;
+  }
+   #fruit-meter div { 
+  
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

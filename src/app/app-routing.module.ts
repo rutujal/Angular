@@ -19,7 +19,7 @@ const routes: Routes = [
     component:GraphComponent
   },
   {
-    path:'progess',
+    path:'progress',
     component:ProgessbarComponent
   },
 ];
